@@ -244,5 +244,5 @@ margin: auto auto auto auto;
 
 /* When you move the mouse over the subnav container, open the subnav content */
 .subnav:hover .subnav-content {
-  display: block;
+  display: inline;
 }
