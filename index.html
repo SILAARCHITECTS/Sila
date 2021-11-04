@@ -2,7 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>Sila Architects</title>
     <link rel="stylesheet" href="styles.css">
@@ -14,71 +19,163 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </head>
   <body>
-    <div class="navbar">
-  <a href="#home">Home</a>
-  <div class="subnav">
-    <button class="subnavbtn">About <i class="fa fa-caret-down"></i></button>
-    <div class="subnav-content">
-      <a href="#company">Company</a>
-      <a href="#team">Team</a>
-      <a href="#careers">Careers</a>
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+            <a href="#home" class="w3-bar-item w3-button"><b>Sila</b> Architects</a>
+            <!-- Float links to the right. Hide them on small screens -->
+            <div class="w3-right w3-hide-small">
+                <a href="HTML/Projects.html" class="w3-bar-item w3-button">Projects</a>
+                <a href="#about" class="w3-bar-item w3-button">About</a>
+                <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+              <a href="#Payments" class="w3-bar-item w3-button">Payments</a>
+            </div>
+        </div>
     </div>
-  </div>
-  <div class="subnav">
-    <button class="subnavbtn">Services <i class="fa fa-caret-down"></i></button>
-    <div class="subnav-content">
-      <a href="#bring">Bring</a>
-      <a href="#deliver">Deliver</a>
-      <a href="#package">Package</a>
-      <a href="#express">Express</a>
+
+    <!-- Header -->
+    <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+        <img class="w3-image" src="blackpic.jpeg" alt="Architecture" width="1500" height="800">
+        <div class="w3-display-middle w3-margin-top w3-center">
+            <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Sila</b></span> <span
+                    class="w3-hide-small w3-text-light-grey">Architects</span></h1>
+        </div>
+    </header>
+
+    <!-- Page content -->
+    <div class="w3-content w3-padding" style="max-width:1564px">
+
+        <!-- Project Section -->
+        <div class="w3-container w3-padding-32" id="projects">
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h3>
+        </div>
+
+        <div class="w3-row-padding">
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <div class="w3-display-topleft w3-black w3-padding">Summer House</div>
+                    <img src="house5.jpeg" alt="House" style="width:100%">
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <div class="w3-display-topleft w3-black w3-padding">Brick House</div>
+                    <img src="house2.jpeg" alt="House" style="width:100%">
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <div class="w3-display-topleft w3-black w3-padding">Renovated</div>
+                    <img src="house3.jpeg" alt="House" style="width:100%">
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <div class="w3-display-topleft w3-black w3-padding">Barn House</div>
+                    <img src="house4.jpeg" alt="House" style="width:100%">
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row-padding">
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <div class="w3-display-topleft w3-black w3-padding">Summer House</div>
+                    <img src="house2.jpeg" alt="House" style="width:99%">
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <div class="w3-display-topleft w3-black w3-padding">Brick House</div>
+                    <img src="house5.jpeg" alt="House" style="width:99%">
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <div class="w3-display-topleft w3-black w3-padding">Renovated</div>
+                    <img src="house4.jpeg" alt="House" style="width:99%">
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <div class="w3-display-topleft w3-black w3-padding">Barn House</div>
+                    <img src="house3.jpeg" alt="House" style="width:99%">
+                </div>
+            </div>
+        </div>
+
+        <!-- About Section -->
+        <div class="w3-container w3-padding-32" id="about">
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Excepteur sint
+                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+        </div>
+
+        <div class="w3-row-padding w3-grayscale">
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <img src="team2.jpeg" alt="John" style="width:100%">
+                <h3>John Dean</h3>
+                <p class="w3-opacity">CEO & Founder</p>
+                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <img src="team1.jpeg" alt="Jane" style="width:100%">
+                <h3>Jane Morgan</h3>
+                <p class="w3-opacity">Architect</p>
+                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <img src="team3.jpeg" alt="Mike" style="width:100%">
+                <h3>Mike Ross</h3>
+                <p class="w3-opacity">Architect</p>
+                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <img src="team4.jpeg" alt="Dan" style="width:100%">
+                <h3>Dan Star</h3>
+                <p class="w3-opacity">Architect</p>
+                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+            </div>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="w3-container w3-padding-32" id="contact">
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+            <p>Lets get in touch and talk about your next project.</p>
+            <form action="/action_page.php" target="_blank">
+                <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+                <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
+                <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
+                <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
+                <button class="w3-button w3-black w3-section" type="submit">
+                    <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                </button>
+            </form>
+        </div>
+
+        <!-- Image of location/map -->
+        <div class="w3-container">
+            <img src="https://www.w3schools.com/w3images/map.jpg" class="w3-image" style="width:100%">
+        </div>
+
+        <!-- End page content -->
     </div>
-  </div>
-  <div class="subnav">
-    <button class="subnavbtn">Partners <i class="fa fa-caret-down"></i></button>
-    <div class="subnav-content">
-      <a href="#link1">Link 1</a>
-      <a href="#link2">Link 2</a>
-      <a href="#link3">Link 3</a>
-      <a href="#link4">Link 4</a>
-    </div>
-  </div>
-  <a href="#contact">Contact</a>
-</div>
-  <div id="top-container">
-    <img class="backgroundimg" src="maxresdefault.jpg" alt="">
-    <div class="text-center designer">
-      <h1 class="im">I'm Rohith Krishna.</h1>
-      <p>I'm an Architect.</p>
-    </div>
-</div>
-<div id="middle-container">
-  <img class="blackpic" src="blackpic.jpg" alt="blackpicimg">
-  <img class="pic1" src="circle-cropped (1).png" alt="mypic">
-  <h1 class="hello">Hello</h1>
-  <div class="intro">
-    <p >I'm an Architect basicallyI am more into  home makeovers and I'm passionate to create a green building Environments.</p>
-  </div>
-  <div class="skills">
-    <div class="skill-row">
-        <img class="persontyping" src="persontyping1.gif" alt="">
-        <h1>What I can do.</h1>
-        <p>I'm an Architect and my works include  AAAAAAAA.</p>
-      </div>
-      <hr>
-    <div class="skill-row">
-      <img class="persontyping1" src="persontyping.gif" alt="">
-      <h1 class="help">I can also help you with.</h1>
-      <p>I can srcutize the work for ongoing projects as a site executive and Ensure the process is done accordingly</p>
-    </div>
-    <hr>
-    <div class="skill-row">
-      <img class="persontyping2" src="persontyping2.gif" alt="">
-      <h1>Design what you want.</h1>
-      <p>I work for interiors and also I give suggestions about green buildings and design methods for Green buildings.</p>
-    </div>
-    <hr>
-  </div>
-  <div id="contact-me">
+
+
+   
+
+ <!-- <div id="contact-me">
     <h1 class="help">I can help.</h1>
     <p class="freelance">I’m currently available for freelance work.</p>
     <p class="con">If you have a project that you want to get started, think you need my help with something or just fancy saying hey, then get in touch.</p>
@@ -97,7 +194,12 @@
       </div>
   </div>
   <p class="whats">Also available on Whats App for the above given number</p> 
-  </div>
+  </div> -->
 </div>
+   <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-16">
+        <p>To the Top <a href="Sila/index.html" title="W3.CSS" target="_blank"
+                class="w3-hover-text-green">Sila</a></p>
+    </footer>
 </body>
 </html>
